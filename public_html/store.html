@@ -8,6 +8,31 @@
  <meta charset="utf-8">
  <title>Rocky Mountain Bike Club</title>
  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <style>
+ ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #636F80;
+ }
+ li {
+    float: left;
+ }
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+ }
+ li a:hover:not(.active) {
+    background-color: #C7DDFF;
+ }
+ .active {
+    background-color: black;
+ }
+ </style>
 </head>
 
 <body>
@@ -18,7 +43,7 @@
     <li> <a href="contact.html">Contact</a></li>
     <li> <a href="location.html">Location</a></li>
     <li> <a href="times.html">Meeting Times</a></li>
-    <li> <a href="store.html">Bike Store</a></li>
+    <li> <a class="active" href="store.html">Bike Store</a></li>
     <li> <a href="merch.html">Merchandise Store</a></li>
     <li> <a href="initiation.html">Initiation</a></li>
     <li> <a href="weather.html">Weather</a></li>
