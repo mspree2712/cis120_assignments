@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 
-<!-- Sky's Page -->
-
 <html lang="en">
 
 <head>
+<style>
+body {
+    background-image:url("img/partlycloudy.png");
+    
+    background-position:290px 30px;
+}
+
+ {
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:17%;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow:auto;
+    
+} 
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+</style>
+
  <meta charset="utf-8">
  <title>Rocky Mountain Bike Club</title>
+ <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
@@ -24,13 +59,63 @@
   </ul>
 </nav>
 
-<h1>Weather Update</h1>
+<div style="margin-left:25%;padding:1px 16px;height: 1000px;">
 
-<p> Weather Outlook: Saturday - Sunny 78 degrees. Great biking weather!</p> 
-<p>Sunday - Stormy with a high of 56.</p> 
-<p>Monday - Partly Cloudy. Temperature - 66 degrees.</p>
-<p>Tuesday - Sunny 70 degrees. A little chilly but still prime weather to be out on the mountains!</p>
-<img src="img/partlycloudy.png" alt=partlycloudy>
+
+
+<style>
+table, th, td { 
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 14px;
+}
+th,td {
+    text-align: auto;
+}
+</style>
+
+
+<h1> Weather</h1> 
+
+<table style="width:100%">
+    <caption> This Week</caption>
+    <tr>
+        <th> Day </th>
+        <th> Forecast </th>
+    </tr>
+    <tr>
+        <td> Monday </td>
+        <td> Cloudy with a high of 68 </td>
+    </tr>
+    <tr>  
+        <td> Tuesday </td>
+        <td> Partly cloudy with a high of 79 </td>
+    </tr>
+    <tr>
+        <td> Wednesday </td>
+        <td> Thunderstorms for most of the day with a high of 61 </td>
+    </tr>
+    <tr>
+        <td> Thursday </td>
+        <td> Partly cloudy with a 60% chance of rain and a high of 65 </td>
+    </tr>
+    <tr>
+        <td> Friday </td>
+        <td> Sunny with a high of 75 </td>
+    </tr>
+    <tr>
+        <td> Saturday </td>
+        <td> Partly cloudy with a 20% chance of rain in the evening, and a high of 72 </td>
+    </tr>
+    <tr>
+        <td> Sunday</td>
+        <td> Sunny with a high of 76 </td>
+    </tr>
+</table>
+
+
 
 <footer>
   <p>&copy; Copyright 2019, Sara, Sky and Mason</p>

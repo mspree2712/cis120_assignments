@@ -1,0 +1,13 @@
+h1 {
+	color:black;
+	text-align:center;
+}
+
+body{
+	background-color:#BF7245;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+}

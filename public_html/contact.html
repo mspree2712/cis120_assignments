@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 
-<!-- Sara's Page -->
-
 <html lang="en">
 
 <head>
+<style>
+body {
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:17%;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow:auto;
+    
+} 
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+</style>
+
+
+
  <meta charset="utf-8">
  <title>Rocky Mountain Bike Club</title>
+ <link rel="stylesheet" type="text/css" href="css/sytlesheet.css">
 </head>
 
 <body>
@@ -24,6 +55,22 @@
   </ul>
 </nav>
 
+<div style="margin-left:25%;padding:1px 16px; height: 1000px;">
+
+<style>
+table,th,td{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+th,td{
+    padding:12px;
+}
+th,td{
+    text-align:auto;
+}
+</style>
+
+
 <h1> Contact Us </h1>
 
 <p>Sign up for our mailing list!</p>
@@ -38,32 +85,31 @@
   <input type="submit" value="Submit">
 </form>
 
-<p>For more questions or conversation, call us at our phone number or shoot us an email! </p>
+<p>For more questions or information on the club, call us at our phone number or shoot us an email! </p>
 
 <p> We would love to hear from you! </p>
 
-<table>
-    <thead>
-        <tr>
-            <th> Name </th>
-            <th> Number </th>
-            <th> Email </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td> Bob Mountainbike </td>
-            <td> 1234567891 </td>
-            <td> bob.mountain@gmail.com</td>
-            <td><img src="img/bob.png" alt=bob /></td> 
-        </tr>
-        <tr>
-            <td>Rick Rockymountain</td>
-            <td> 5437659876</td>
-            <td>Rick.rocky@gmail.com</td>
-            <td><img src="img/rick.png" alt=rick /></td>
-        </tr>
-    </tbody>
+<table style="width:100%">
+    <caption> Information</caption>
+    <tr>
+        <th> Name</th>
+        <th> Number</th>
+        <th> Email</th>
+    </tr>
+    <tr>
+        <td> Bob Mountainbike</td>
+        <td> 1234567891</td>
+        <td> bob.mountain@gmail.com</td>
+    </tr>
+    <tr>
+        <td> Rick Rockymountain</td>
+        <td> 5437659876</td>
+        <td> Rick.rocky@gmail.com</td>
+    </tr>
+                    
+<img src="img/bob_improved.jpg" alt=bob /></td> 
+<img src="img/rick.png" alt=rick /></td>
+
 </table>
 
 <footer>
