@@ -1,82 +1,111 @@
 <!DOCTYPE html>
 
-
-
 <html lang="en">
+  <head>
 
-<head>
-<style>
-body {
-    margin:0;
-}
+    <meta charset="utf-8">
+    <title>Bike Store</title>
 
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:17%;
-    background-color:#333;
-    position:fixed;
-    height:100%;
-    overflow:auto;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-li a {
-    display: block;
-    color: white;
-    padding:8px 16px;
-    text-decoration:none;
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css">
 
-li a:hover {
-    background-color:#111;
-}
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-</style>
+   <!-- You can replace the 'optional theme' with links from the page below to get that theme:https://www.bootstrapcdn.com/bootswatch/-->
+  </head>
+
+  <body>
+
+    <!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bike Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+             <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="location.html">Location</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="times.html">Meeting Times</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="initiation.html"> Join Today</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="weather.html"> Weather</a>
+          </li>
 
 
- <meta charset="utf-8">
- <title>Rocky Mountain Bike Club</title>
- <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-</head>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Store
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="store.html">Bike Store</a>
+              <a class="dropdown-item" href="merch.html">Merchandise Store</a>
+            </div>
+          </li>
+        </ul>
 
-<body>
-<nav>
-   <ul> 
-    <li> <a href="index.html">Home</a></li>
-    <li> <a href="about.html">About</a></li>
-    <li> <a href="contact.html">Contact</a></li>
-    <li> <a href="location.html">Location</a></li>
-    <li> <a href="times.html">Meeting Times</a></li>
-    <li> <a href="store.html">Bike Store</a></li>
-    <li> <a href="merch.html">Merchandise Store</a></li>
-    <li> <a href="initiation.html">Initiation</a></li>
-    <li> <a href="weather.html">Weather</a></li>
-  </ul>
-</nav>
+      </div>
+    </nav>
 
-<div style="margin-left:25%;padding:1px 16px; height: 1000px;">
-
-
- <h1>Bike Store</h1>
- 
+    <!-- Main content
+     Put your main content in a dic named 'container'.
+     This includes your footer.
+     Otherwise everything will stretch to the edge of the  screen.
+     -->
+    <div class="container">
+        <h1>Bike Store</h1>
+        
  <p>Standard Bike</p>
- <img src="img/bike1.png" alt=bike1 />
  <p><em>Price: 120.00$</em></p>
+ <img src="img/bike1.png" alt=bike1 />
  
  <p>Speed Bike</p>
- <img src="img/bike2.png" alt=bike2 />
  <p><em>Price: 160.00$</em></p>
+ <img src="img/bike2.png" alt=bike2 />
  
  <p>Spider Bike</p>
- <img src="img/bike3.png" alt=bike3 />
  <p><em>Price: 100.00$</em></p>
+ <img src="img/bike3.png" alt=bike3 />
 
-<footer>
-  <p>&copy; Copyright 2019, Sara, Sky and Mason</p>
-</footer>
 
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

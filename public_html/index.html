@@ -1,79 +1,105 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-
-<head>
-<style>
-body {
-    background-image:url("img/logo.png");
-    background-repeat: no-repeat;
-    
-    background-position:210px 0px;
-} 
-
-
-{
-    margin:0;
-}
-
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:17%;
-    background-color:#333;
-    position:fixed;
-    height:100%;
-    overflow:auto;
-}
-
-li a {
-    display: block;
-    color: white;
-    padding:8px 16px;
-    text-decoration:none;
-
-}
-
-li a:hover {
-    background-color:#111;
-}
-
+  <head>
+  <style>
+    body{
+        background-image:url("img/logo.png");
+        background-repeat:no-repeat;
+        background-position:210px 50px;
+    }
 </style>
 
+    <meta charset="utf-8">
+    <title>Rocky mountain Bike Club</title>
 
- <meta charset="utf-8">
- <title>Rocky Mountain Bike Club</title>
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-<nav>
-  <ul> 
-    <li> <a href="index.html">Home</a></li>
-    <li> <a href="about.html">About</a></li>
-    <li> <a href="contact.html">Contact</a></li>
-    <li> <a href="location.html">Location</a></li>
-    <li> <a href="times.html">Meeting Times</a></li>
-    <li> <a href="store.html">Bike Store</a></li>
-    <li> <a href="merch.html">Merchandise Store</a></li>
-    <li> <a href="initiation.html">Initiation</a></li>
-    <li> <a href="weather.html">Weather</a></li>
-  </ul>
-</nav>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+
+  </head>
+
+  <body>
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="location.html">Location</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="times.html">Meeting Times</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="initiation.html"> Join Today</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="weather.html"> Weather</a>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Store
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="store.html">Bike Store</a>
+              <a class="dropdown-item" href="merch.html">Merchandise Store</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
  
-<div style="margin-left:25%;padding:1px 16px; height: 1000px;">
+
+     <div class="container">
+        <h1>Rocky Mountain Bike Club</h1>
+
+        <h4>Welcome to the Rocky Mountain Bike Club!</h4>
+
+        <div class="row">
+            <div class="mycolor col-6">
+            Biking is a lifestyle, not a hobby at Rocky Mountain Bike Club. At the RMBC (Rocky Mountain Bike Club) our members use the mountain trails for their mental and physical health. The combination of beautiful scenery and challenging trails has helped many of our members and others who have just stopped by balance their lives. Many people who have given us feedback has described feeling lighter in their lives.
+            </div>
+
+            <div class="mycolor col-6">
+            While some trails are rigouse and for more experienced bikers, we do have some trails for those who are just looking to get away for awhile. Each trail has a difficulty marking, so all of our bikers know what type of challenge they face before taking the trail. If you want to join up with us or even just want to try a trail contact us using the information on our Contact page! Hope to see you soon!
+            </div>
+        </div>
+    </div>
 
  
- <h1>Rocky Mountain Bike Club</h1>
- <p style="text-align:center;">Welcome to the Rocky Mountain Bike Club!</p>
- <p style="text-align:center;">Biking is a lifestyle, not a hobby!</p>
- <p style="text-align:center;">We look forward to seeing you.</p>
- 
-<footer>
-  <p>&copy; Copyright 2019, Sara, Sky and Mason</p>
-</footer>
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
